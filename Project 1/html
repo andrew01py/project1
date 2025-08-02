@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduCorp | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+      background-color: white;
+    }
+    .hero h2 {
+      margin-bottom: 0.5rem;
+      color: #003366;
+    }
+    .hero p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>EduCorp</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <a href="index.html">Home</a>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <main>
+    <section class="hero scroll-reveal">
+      <h2>Welcome to EduCorp</h2>
+      <p>Empowering Education Through Technology</p>
+      <img src="images/hero.jpg" alt="Educational Hero Image" />
+    </section>
+  </main>  <footer>
+    <p>&copy; 2025 EduCorp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
